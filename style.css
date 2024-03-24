@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho1{
+    background-color: rgba(46, 46, 46, 0.904);
+    color: white;
+    display: flex;
+    /* Display Flex: Flexiona o que está embaixo para o lado*/
+    justify-content: space-around;
+    /* Justifica, e o Space Around justifica uniformemente basicamente é isso*/
+}
+
+.logodbz{
+    width: 15%;
+    height: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    /*margin: 6px; */
+    /*A Margin assim vai funcionar, mas Escola e eEstudante vai ficar muito perto um do outro já que foi colocado 6px Vertical e Horizontal*/
+    margin: 22px 25px;
+    padding: 0px;
+    /*Deixei padding de 0px que é espaçamento interno zero pq eu nao quero que muda nada, se eu aumentar o pixel ele deixa feio, coloquei pq no vídeo cobra da gente*/
+    font-size: 18px;
+
+}
